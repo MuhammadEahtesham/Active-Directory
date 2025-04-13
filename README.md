@@ -1,5 +1,20 @@
 # Active-Directory
 
+## Description
+
+What is Active Directory ?
+
+Active Directory is a directory service developed by Microsoft for managing and organizing resources within a networked environment. It is commonly used in Windows-based networks to centralize and control network resources, such as user accounts, computers, printers, and security policies.
+
+Organizational Unit (OU)
+A container containing different objects such as computers, users, domains etc
+
+Domain Controller (DC)
+
+Group Policy Objects (GPO)
+Used by admins to setup and maintains users in an organization
+
+
 ## Step-by-Step Guide
 
 Install virtual box and ISOs for given links:

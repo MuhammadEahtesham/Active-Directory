@@ -155,13 +155,13 @@ Choose NAT option -> then, choose public interface option and Finish.
    + It is a user config. and is a preferences
    + In Group policy management centre, go User config -> preference -> windows settings -> Drive maps
      
-- **GPO 3: Control Panel**
+- **GPO 3: Deny Accessing Control Panel**
   + It is a user config. and is a policy
   + Go to Desktop policy -> user config -> policies -> Administrative template -> control panel -> Prohibit access to control panel -> Enable
     
-- **GPO 3: Remove usb**
- + It is a computer config. and a policy
- + Go to Administrative template -> System -> Removable Storage Access -> Enable
+- **GPO 4: Deny Remove usb**
+    + It is a computer config. and a policy
+    + Go to Administrative template -> System -> Removable Storage Access -> Enable
 
 _..... Now assign a policy to a user Eg; control panel restriction policy_
 

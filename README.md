@@ -144,5 +144,47 @@ Choose NAT option -> then, choose public interface option and Finish.
 
 ### 📒 Chapter 2 - Group Policy Management
 
+- **GPO 1: Password policy**
+   + It is a computer config. and is a policy
+   + In Group policy management centre, Go to password policy -> computer config -> policy -> Windows settings -> security settings -> Account policies -> password policy
+   + Setup length, age and complexity
+     
+     ![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/pwdPolicy.png)
+     
+- **GPO 2: Drive Mapping (Map network drives for users when they log in)**
+   + It is a user config. and is a preferences
+   + In Group policy management centre, go to Mapping policy -> user config -> preference -> security -> password
+
+- **GPO 3: Control Panel**
+  + It is a user config. and is a policy
+  + Go to Desktop policy -> user config -> policies -> Administrative template -> Control Panel
+    
+- **GPO 3: Remove usb**
+ + It is a computer config. and a policy
+ + Go to Administrative template -> System -> Removable Storage Access -> Enable
+
+_..... Now assign a policy to a user Eg; control panel restriction policy_
+
+![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/controlPanel.png)
+
+
+![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/restriction.png)
+
+_.... Now there are security based plicies that you all might be interesting_
+
+- **🔒 Account lockout policy (To protect against brute force attacks)**
+
+   
+  ![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/accountLockout.png)
+
+- **🔒 Users right assignment**
+     + Deny local logon to server
+
+     ![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/denyLocally.png)
+
+     + Restrict remote desktop access
+
+     ![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/remoteDesktop.png)
+
 
 # THE END

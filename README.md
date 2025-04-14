@@ -153,11 +153,11 @@ Choose NAT option -> then, choose public interface option and Finish.
      
 - **GPO 2: Drive Mapping (Map network drives for users when they log in)**
    + It is a user config. and is a preferences
-   + In Group policy management centre, go to Mapping policy -> user config -> preference -> security -> password
-
+   + In Group policy management centre, go User config -> preference -> windows settings -> Drive maps
+     
 - **GPO 3: Control Panel**
   + It is a user config. and is a policy
-  + Go to Desktop policy -> user config -> policies -> Administrative template -> Control Panel
+  + Go to Desktop policy -> user config -> policies -> Administrative template -> control panel -> Prohibit access to control panel -> Enable
     
 - **GPO 3: Remove usb**
  + It is a computer config. and a policy
@@ -170,7 +170,7 @@ _..... Now assign a policy to a user Eg; control panel restriction policy_
 
 ![](https://github.com/MuhammadEahtesham/Active-Directory/blob/main/assets/restriction.png)
 
-_.... Now there are security based plicies that you all might be interesting_
+_.... Now there are security based policies that you all might be interesting_
 
 - **🔒 Account lockout policy (To protect against brute force attacks)**
 
